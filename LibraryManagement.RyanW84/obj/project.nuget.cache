@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u1D869Vxu64=",
+  "success": true,
+  "projectFilePath": "/home/ryanw/Documents/GitHub/OOP Study Development/LibraryManagement.RyanW84/LibraryManagement.RyanW84/LibraryManagement.RyanW84.csproj",
+  "expectedPackageFiles": [
+    "/home/ryanw/.nuget/packages/spectre.console/0.50.1-preview.0.26/spectre.console.0.50.1-preview.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
