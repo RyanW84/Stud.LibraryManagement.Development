@@ -24,28 +24,31 @@ List<string> books =
     "The Hitchhiker's Guide to the Galaxy",
 ];
 
-while (true)
+MainMenu();
+void MainMenu()
 {
-    var choice = AnsiConsole.Prompt(
-        new SelectionPrompt<MenuOption>()
-            .Title("What do you want to do next?")
-            .AddChoices(Enum.GetValues<MenuOption>())
-    );
-
-    switch (choice)
+    while (true)
     {
-        case MenuOption.ViewBooks:
-            ViewBooks();
-            break;
-        case MenuOption.AddBook:
-            AddBook();
-            break;
-        case MenuOption.DeleteBook:
-            DeleteBook();
-            break;
+        var choice = AnsiConsole.Prompt(
+            new SelectionPrompt<MenuOption>()
+                .Title("What do you want to do next?")
+                .AddChoices(Enum.GetValues<MenuOption>())
+        );
+
+        switch (choice)
+        {
+            case MenuOption.ViewBooks:
+                ViewBooks();
+                break;
+            case MenuOption.AddBook:
+                AddBook();
+                break;
+            case MenuOption.DeleteBook:
+                DeleteBook();
+                break;
+        }
     }
 }
-
 void AddBook()
 {
     var newBook = AnsiConsole.Ask<string>("Enter the name of the book to add:");
