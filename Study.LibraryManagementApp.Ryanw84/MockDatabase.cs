@@ -1,28 +1,18 @@
-﻿namespace Study.LibraryManagementApp.Ryanw84;
+﻿using System.Data.Common;
 
-internal class MockDatabase {
+namespace Study.LibraryManagementApp.Ryanw84;
 
-	internal static List<string> Books =
+internal class MockDatabase
+{
+    internal static List<Book> Books =
 	[
-		"The Great Gatsby",
-	"To Kill a Mockingbird",
-	"1984",
-	"Pride and Prejudice",
-	"The Catcher in the Rye",
-	"The Hobbit",
-	"Moby-Dick",
-	"War and Peace",
-	"The Odyssey",
-	"The Lord of the Rings",
-	"Jane Eyre",
-	"Animal Farm",
-	"Brave New World",
-	"The Chronicles of Narnia",
-	"The Diary of a Young Girl",
-	"The Alchemist",
-	"Wuthering Heights",
-	"Fahrenheit 451",
-	"Catch-22",
-	"The Hitchhiker's Guide to the Galaxy",
-];
+		new Book(1, "Book A", "Author A", "Category A", "A1", 218),
+        new Book(1, "Book B", "Author B", "Category B", "B1", 12),
+        new Book(1, "Book C", "Author C", "Category C", "C1", 132),
+        new Book(1, "Book D", "Author D", "Category D", "D1", 43),
+        new Book(1, "Book E", "Author E", "Category E", "E1", 344),
+    ];
+
+  
+
 }

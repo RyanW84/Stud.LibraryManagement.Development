@@ -6,26 +6,53 @@ internal class BooksController
 {
     internal void ViewBooks()
     {
-        AnsiConsole.MarkupLine("[yellow]List of Books:[/]");
+        var table = new Table();
 
-        // Printing each book to the console with a loop
+        table.Border(TableBorder.Rounded);
+
+        table.AddColumn("[yellow]ID[/]");
+		table.AddColumn("[yellow]Title[/]");
+		table.AddColumn("[yellow]Author[/]");
+		table.AddColumn("[yellow]Category[/]");
+		table.AddColumn("[yellow]Location[/]");
+		table.AddColumn("[yellow]Pages[/]");
+
         foreach (var book in MockDatabase.Books)
         {
-            AnsiConsole.MarkupLine($"- [cyan]{book}[/]");
+            table.AddRow(
+                book.Id.ToString() ,
+                book.Name ,
+                book.Author ,
+                book.Category ,
+                book.Location ,
+                book.Pages.ToString()
+                );
         }
-
-        /* Having the user press a key before continuing, or the menu
-         wouldn't be visualisable */
-        AnsiConsole.MarkupLine("Press Any Key to Continue.");
+        AnsiConsole.Write(table);
+		AnsiConsole.MarkupLine("Press Any Key to Continue.");
         Console.ReadKey();
     }
 
     internal void AddBook()
     {
-        var newBook = AnsiConsole.Ask<string>("Enter the name of the book to add:");
-        MockDatabase.Books.Add(newBook);
-        AnsiConsole.MarkupLine($"[green]{newBook} has been added to the library.[/]");
-        AnsiConsole.MarkupLine("Press any key to continue.");
+        var title = AnsiConsole.Ask<string>("Enter the [Green]Title[/]of the book");
+		var author = AnsiConsole.Ask<string>("Enter the [Green]Author[/]of the book");
+		var category = AnsiConsole.Ask<string>("Enter the [Green]Category[/]of the book");
+		var location = AnsiConsole.Ask<string>("Enter the [Green]Location[/]of the book");
+		var pages = AnsiConsole.Ask<int>("Enter the [Green]number of pages[/]of the book");
+
+		if (MockDatabase.Books.Any(b=>b.Name.Equals(title)))
+        {
+            AnsiConsole.MarkupLine("[Red]This book already exists![/]");
+        }
+		else
+		{
+            var newBook = new Book(MockDatabase.Books.Count +1, title, author, category, location, pages );
+            MockDatabase.Books.Add(newBook);
+                AnsiConsole.MarkupLine($"[Gree]{title}[/] Added succesfully!");
+		}
+
+		AnsiConsole.MarkupLine("Press any key to continue.");
         Console.ReadKey();
     }
 
@@ -39,10 +66,10 @@ internal class BooksController
         }
 
         var bookToDelete = AnsiConsole.Prompt(
-            new SelectionPrompt<string>()
+            new SelectionPrompt<Book>()
                 .Title("Select a book to delete:")
-                .AddChoices(MockDatabase.Books)
-        );
+                .UseConverter(b=> $"{b.Name} {b.Author}"
+        ));
         MockDatabase.Books.Remove(bookToDelete);
         AnsiConsole.MarkupLine($"[red]{bookToDelete} has been removed from the library.[/]");
         AnsiConsole.MarkupLine("Press Any Key to Continue!");

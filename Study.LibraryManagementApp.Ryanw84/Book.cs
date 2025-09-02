@@ -1,25 +1,37 @@
 ﻿namespace Study.LibraryManagementApp.Ryanw84;
 
-internal class Book
+internal class Book // Model - object with multiple properties
 {
-    string Name;
-    string Location;
+    //string _name;
+    //string Location;
 
-    internal Book()
-    {
-        Console.WriteLine("Book name is Unknown!");
-    }
+    //public string Name // Backing field - private and accessed through properties
+    //{
+    //    get { return _name; }
+    //    set
+    //    {
+    //        if (string.IsNullOrEmpty(value)) // Validation added in one place
+    //        {
+    //            throw new ArgumentNullException(value);
+    //        }
+    //        _name = value; // Sets the value from outside the class
+    //    }
+    //}
 
-    internal Book(string name)
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Author { get; set; }
+    public string Category { get; set; }
+    public string Location { get; set; }
+    public int Pages { get; set; }
+
+    internal Book(int id, string name, string author, string category, string location, int pages)
     {
+        Id = id;
         Name = name;
-        Console.WriteLine($"Book name: {name} and location is unknown");
-    }
-
-    internal Book(string name, string location)
-    {
-        Name = name;
+        Author = author;
+        Category = category;
         Location = location;
-        Console.WriteLine($"Book Name: {name} and Location: {location}");
+        Pages = pages;
     }
 }
