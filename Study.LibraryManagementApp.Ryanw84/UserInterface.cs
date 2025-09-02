@@ -9,8 +9,10 @@ internal class UserInterface
 
     internal void MainMenu()
     {
+       
         while (true)
         {
+            Console.Clear();
             var choice = AnsiConsole.Prompt(
                 new SelectionPrompt<MenuOption>()
                     .Title("What do you want to do next?")

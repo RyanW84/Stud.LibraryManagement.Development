@@ -2,7 +2,7 @@
 
 UserInterface userInterface = new();
 
-//userInterface.MainMenu();
+userInterface.MainMenu();
 
 //var book1 = new Book("Test1");
 //var book2 = new Book("Test2");
