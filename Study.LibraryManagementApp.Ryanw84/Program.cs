@@ -1,10 +1,18 @@
 ﻿using Study.LibraryManagementApp.Ryanw84;
 
-UserInterface userInterface = new();
+//UserInterface userInterface = new();
+//userInterface.MainMenu();
 
-userInterface.MainMenu();
+public abstract class Animal
+{
+public int Id { get; set; }
+}
+public interface AnimalActions
+{
+	void GetSound( );
+}
 
-//var book1 = new Book("Test1");
-//var book2 = new Book("Test2");
-//var book3 = new Book();
-//var book4 = new Book("Harry Potter", "A43");
+public class Bird : Animal
+{
+
+}
