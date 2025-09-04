@@ -2,7 +2,6 @@
 
 
 
-//UserInterface userInterface = new();
-//userInterface.MainMenu();
+UserInterface userInterface = new();
+userInterface.MainMenu();
 
-var list = new List<string>();

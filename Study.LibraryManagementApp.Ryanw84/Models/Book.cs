@@ -9,17 +9,17 @@ internal class Book(int id, string name, string author, string category, string 
     public string Category { get; set; } = category;
     public int Pages { get; set; } = pages;
 
-    public override void DisplayDetails()
-    {
-        var panel = new Panel(
-            new Markup($"[bold]Book:[/] [Cyan]{Name}[/] by [Cyan]{Author}[/]")
-                + $"\n[Bold]Pages:[/] {Pages}"
-                + $"\n[Bold]Category:[/] [Green]{Category}[/]"
-                + $"\n[Bold]Category:[/] [Blue]{Location}[/]"
-        )
-        {
-            Border = BoxBorder.Rounded,
-        };
-        AnsiConsole.Write(panel);
-    }
+	public void DisplayDetails( )
+	{
+		var panel = new Panel(
+			new Markup($"[bold]Book:[/] [Cyan]{Name}[/] by [Cyan]{Author}[/]")
+				+ $"\n[Bold]Category:[/] [Green]{Category}[/]"
+				+ $"\n[Bold]Location:[/] [Blue]{Location}[/]"
+				+ $"\n[Bold]Pages:[/] {Pages}"
+		)
+		{
+			Border = BoxBorder.Rounded ,
+		};
+		AnsiConsole.Write(panel);
+	}
 }

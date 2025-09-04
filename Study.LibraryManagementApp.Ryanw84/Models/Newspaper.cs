@@ -15,7 +15,7 @@ internal class Newspaper(
     public DateTime PublishDate { get; set; }
     public int IssueNumber { get; set; }
 
-	public override void DisplayDetails( )
+	public void DisplayDetails( )
 	{
 		var panel = new Panel(
 			new Markup($"[bold]Magazine:[/] [Cyan]{Name}[/] Published by [Cyan]{Publisher}[/]")
