@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\models\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:models\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\models\\newspaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:models\\newspaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\models\\libraryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:models\\libraryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\controllers\\magazinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:controllers\\magazinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,36 +27,16 @@
       "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:controllers\\newspapercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\models\\newspaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:models\\newspaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\controllers\\ibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:controllers\\ibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\models\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:models\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\models\\libraryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:models\\libraryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\mockdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:mockdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B58F9D74-8039-4736-8883-4DCCB89B2F9C}|Study.LibraryManagementApp.Ryanw84.csproj|c:\\users\\ryanw\\onedrive\\documents\\github\\study.librarymanagement.development\\study.librarymanagementapp.ryanw84\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -75,34 +71,20 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T08:55:31.305Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
               "ToolTip": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Models\\Book.cs",
               "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA+wBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T13:40:53.016Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T19:15:55.77Z",
               "EditorCaption": ""
             },
             {
@@ -115,7 +97,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T19:15:55.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "NewspaperController.cs",
               "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Controllers\\NewspaperController.cs",
               "RelativeDocumentMoniker": "Controllers\\NewspaperController.cs",
@@ -123,12 +117,11 @@
               "RelativeToolTip": "Controllers\\NewspaperController.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAcwHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T13:02:07.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T13:02:07.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MagazineController.cs",
               "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Controllers\\MagazineController.cs",
               "RelativeDocumentMoniker": "Controllers\\MagazineController.cs",
@@ -141,20 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T20:02:38.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IBaseController.cs",
               "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Controllers\\IBaseController.cs",
               "RelativeDocumentMoniker": "Controllers\\IBaseController.cs",
@@ -162,44 +142,43 @@
               "RelativeToolTip": "Controllers\\IBaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T20:00:46.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T20:00:46.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Newspaper.cs",
               "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Models\\Newspaper.cs",
               "RelativeDocumentMoniker": "Models\\Newspaper.cs",
               "ToolTip": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Models\\Newspaper.cs",
               "RelativeToolTip": "Models\\Newspaper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwC0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T13:40:05.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Magazine.cs",
               "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Models\\Magazine.cs",
               "RelativeDocumentMoniker": "Models\\Magazine.cs",
               "ToolTip": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Models\\Magazine.cs",
               "RelativeToolTip": "Models\\Magazine.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T13:39:41.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "LibraryItem.cs",
               "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Models\\LibraryItem.cs",
               "RelativeDocumentMoniker": "Models\\LibraryItem.cs",
               "ToolTip": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Models\\LibraryItem.cs",
               "RelativeToolTip": "Models\\LibraryItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T13:36:36.254Z",
               "EditorCaption": ""
@@ -214,12 +193,11 @@
               "RelativeToolTip": "MockDatabase.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T10:14:51.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T10:14:51.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\Enums.cs",
               "RelativeDocumentMoniker": "Enums.cs",
@@ -227,12 +205,11 @@
               "RelativeToolTip": "Enums.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T10:04:21.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T10:04:21.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "UserInterface.cs",
               "DocumentMoniker": "C:\\Users\\Ryanw\\OneDrive\\Documents\\GitHub\\Study.LibraryManagement.Development\\Study.LibraryManagementApp.Ryanw84\\UserInterface.cs",
               "RelativeDocumentMoniker": "UserInterface.cs",
@@ -240,8 +217,7 @@
               "RelativeToolTip": "UserInterface.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAcwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T10:09:07.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T10:09:07.864Z"
             }
           ]
         }
