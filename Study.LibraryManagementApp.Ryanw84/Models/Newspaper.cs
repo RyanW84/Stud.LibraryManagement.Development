@@ -15,17 +15,17 @@ internal class Newspaper(
     public DateTime PublishDate { get; set; }
     public int IssueNumber { get; set; }
 
-    public override void DisplayDetails()
-    {
-        var panel = new Panel(
-            new Markup($"[bold]Newspaper:[/] [Cyan]{Name}[/] Published by [Cyan]{Publisher}[/]")
-                + $"\n[Bold]Publish Date:[/] {PublishDate:yyyy-MM-dd}"
-                + $"\n[Bold]Issue Number:[/] [Blue]{Location}[/]"
-                + $"\n[Bold]Location:[/] [Green]{IssueNumber}"
-        )
-        {
-            Border = BoxBorder.Rounded,
-        };
-        AnsiConsole.Write(panel);
-    }
+	public override void DisplayDetails( )
+	{
+		var panel = new Panel(
+			new Markup($"[bold]Magazine:[/] [Cyan]{Name}[/] Published by [Cyan]{Publisher}[/]")
+				+ $"\n[Bold]Publish Date:[/] {PublishDate:yyyy-MM-dd}"
+				+ $"\n[Bold]Issue Number:[/] [Blue]{Location}[/]"
+				+ $"\n[Bold]Location:[/] [Green]{IssueNumber}"
+		)
+		{
+			Border = BoxBorder.Rounded ,
+		};
+		AnsiConsole.Write(panel);
+	}
 }
