@@ -3,7 +3,7 @@ using Study.LibraryManagementApp.Ryanw84.Models;
 
 namespace Study.LibraryManagementApp.Ryanw84.Controllers;
 
-internal class NewspaperController : IBaseController
+internal class NewspaperController : BaseController, IBaseController
 {
     public void ViewItems()
     {
@@ -32,7 +32,7 @@ internal class NewspaperController : IBaseController
             );
         }
         AnsiConsole.Write(table);
-        AnsiConsole.MarkupLine("Press Any Key to Continue.");
+        DisplayMessage("Press Any Key to Continue.","Yellow");
         Console.ReadKey();
         Console.Clear();
     }
@@ -51,7 +51,7 @@ internal class NewspaperController : IBaseController
 
         if (MockDatabase.LibraryItems.Any(m => m.Name.Equals(name)))
         {
-            AnsiConsole.MarkupLine("[Red]This newspaper already exists![/]");
+            DisplayMessage("This newspaper already exists!", "Red");
         }
         else
         {
@@ -64,10 +64,10 @@ internal class NewspaperController : IBaseController
                 issueNumbner
             );
             MockDatabase.LibraryItems.Add(newNewspaper);
-            AnsiConsole.MarkupLine($"[Green]{name}[/] Added succesfully!");
+            DisplayMessage($"{name} Added succesfully!", "Green");
         }
 
-        AnsiConsole.MarkupLine("Press any key to continue.");
+        DisplayMessage("Press any key to continue.","Yellow");
         Console.ReadKey();
         Console.Clear();
     }
@@ -76,7 +76,7 @@ internal class NewspaperController : IBaseController
     {
         if (MockDatabase.LibraryItems.Count == 0)
         {
-            AnsiConsole.MarkupLine("No newspapers to Delete!");
+            DisplayMessage("No newspapers to Delete!" , "Red");
             Console.ReadKey();
             return;
         }
@@ -88,15 +88,24 @@ internal class NewspaperController : IBaseController
                 .AddChoices(MockDatabase.LibraryItems.OfType<Newspaper>())
         );
 
-        if (MockDatabase.LibraryItems.Remove(newspaperToDelete))
+        if (ConfirmDeletion(newspaperToDelete.Name)) 
         {
-            AnsiConsole.MarkupLine("[Green]Newspaper Deleted Succesfully[/]");
-        }
+			if (MockDatabase.LibraryItems.Remove(newspaperToDelete))
+			{
+				DisplayMessage("Newspaper Deleted Succesfully" , "Green");
+			}
+			else
+			{
+				DisplayMessage("Newspaper not found!" , "Red");
+			}
+		}
         else
         {
-            AnsiConsole.MarkupLine("[Red]Newspaper not found![/]");
+            DisplayMessage("Deletion Cancelled" , "Red");
         }
-        AnsiConsole.MarkupLine("Press Any Key to Continue!");
+
+        
+        DisplayMessage("Press Any Key to Continue!" , "Yellow");
         Console.ReadKey();
         Console.Clear();
     }
