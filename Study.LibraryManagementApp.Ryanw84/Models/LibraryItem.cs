@@ -1,8 +1,15 @@
 ﻿namespace Study.LibraryManagementApp.Ryanw84.Models;
 
-internal abstract class LibraryItem(int id , string name , string location)
+internal abstract class LibraryItem
 {
-	public int Id { get; set; } = id;
-	public string Name { get; set; } = name;
-	public string Location { get; set; } = location;
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Location { get; set; }
+
+    protected LibraryItem(int id, string name, string location)
+    {
+        Id = id;
+        Name = name;
+        Location = location;
+    }
 }

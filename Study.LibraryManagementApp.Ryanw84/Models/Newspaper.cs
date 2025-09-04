@@ -11,9 +11,9 @@ internal class Newspaper(
     int issueNumber
 ) : LibraryItem(id, name, location)
 {
-    public string Publisher { get; set; }
-    public DateTime PublishDate { get; set; }
-    public int IssueNumber { get; set; }
+    public string Publisher { get; set; } = publisher;
+    public DateTime PublishDate { get; set; } = publishDate;
+    public int IssueNumber { get; set; } = issueNumber;
 
 	public void DisplayDetails( )
 	{

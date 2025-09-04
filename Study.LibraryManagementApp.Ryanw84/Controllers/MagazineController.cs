@@ -24,7 +24,7 @@ internal class MagazineController : IBaseController
 		foreach (var magazine in magazines)
 		{
 			table.AddRow(
-				$"[Red]{magazine.Id.ToString()}[/]" ,
+				$"[Red]{magazine.Id}[/]" ,
 				$"[Cyan]{magazine.Name}[/]" ,
 				$"[Cyan]{magazine.Publisher}[/]" ,
 				$"[Green]{magazine.PublishDate:MMMM dd, yyyy}[/]" ,
@@ -42,7 +42,7 @@ internal class MagazineController : IBaseController
 	{
 		var name = AnsiConsole.Ask<string>("Enter the [Green]Name[/] of the magazine");
 		var publisher = AnsiConsole.Ask<string>("Enter the [Green]Publisher[/] of the magazine");
-		var publishDate = AnsiConsole.Ask<DateTime>("Enter the [Green]Publish Date[/] of the magazine");
+		var publishDate = AnsiConsole.Ask<DateTime>("Enter the [Green]Publish Date[/] of the magazine (yyyy-mm-dd)");
 		var location = AnsiConsole.Ask<string>("Enter the [Green]Location[/] of the magazine");
 		var issueNumbner = AnsiConsole.Ask<int>("Enter the [Green]issue number[/] of the magazine");
 
